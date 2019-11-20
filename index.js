@@ -132,18 +132,17 @@ inquirer
                         <div class="col-md-6">
                             <h4>Bio:</h4>
                                 <p>${bio}</p>
-                                <br>
                             <h5>Number of GitHub Followers:</h5>
                                 <p> ${followers}</p>
-                            <h5>Star Gazer count:</h5> 
-                                <p>${starGazers}</p>
-                            <h5>Following:</h5> 
+                            <h5>Number of GitHub Users Following:</h5> 
                                 <p>${following} users</p>
                         </div>
                         
                         <div class="col-md-6">
                                 <h5>Total Repositories:</h5>
                                 <p>${repoSum}</p>
+                                <h5>Star Gazer count:</h5> 
+                                <p>${starGazers}</p>
                         </div>
                 </div>
             
