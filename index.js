@@ -68,8 +68,9 @@ inquirer
           }
           header{
               background-color: ${color};
+              border-radius: 8px;
               color:black;
-              font-size:35px;
+              font-size:50px;
               margin-bottom:30px;
               text-align: center;
           }
@@ -85,18 +86,23 @@ inquirer
           }
           #profilePic{
               border-radius:8px;
+              float: right;
               height: 200px;
               width: 200px;
           }
           #row1{
               background-color: ${color};
               border-radius: 8px;
+              display:flex;
+              flex-direction:column;
               justify-content: space-around;
               padding:10px;
           }
           #row2{
               background-color: ${color};
               border-radius: 8px;
+              display:flex;
+              flex-direction:column;
               justify-content: space-around;
               padding:10px;
           }
@@ -104,8 +110,9 @@ inquirer
           <title>Developer Profile</title>
         </head>
         <body>
+
             <header>
-            Developer Profile
+                Developer Profile                
             </header>
             
             <div class= "container">
@@ -129,21 +136,20 @@ inquirer
                 <br>
                 <br>
                 <div class="row" id="row2">
-                        <div class="col-md-6">
+                        
                             <h4>Bio:</h4>
                                 <p>${bio}</p>
                             <h5>Number of GitHub Followers:</h5>
                                 <p> ${followers}</p>
                             <h5>Number of GitHub Users Following:</h5> 
                                 <p>${following} users</p>
-                        </div>
                         
-                        <div class="col-md-6">
+                        
                                 <h5>Total Repositories:</h5>
                                 <p>${repoSum}</p>
                                 <h5>Star Gazer count:</h5> 
                                 <p>${starGazers}</p>
-                        </div>
+                        
                 </div>
             
             </div>
