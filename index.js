@@ -3,7 +3,7 @@ const axios = require("axios");
 const inquirer = require("inquirer");
 const pdf = require("html-pdf");
 
-var options = { format: 'Letter' };
+var options = { format: 'A3' };
 
 var starGazers = 0;
 
